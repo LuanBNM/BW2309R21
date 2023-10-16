@@ -1,0 +1,13 @@
+form {
+    background-color: aqua;
+    border: 1px solid;
+}
+input:hover {
+    background-color: rgb(255, 247, 0);
+    border: 1px solid red;
+}
+
+#style {
+    border: 1px;
+    
+}

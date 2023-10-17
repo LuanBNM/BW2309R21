@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div {
+    width: 250px;
+    border: 20px green solid;
+    padding: 80px 20px;
+    border-radius: 5%;
+}
+p {
+   background-color: rgb(64, 70, 70);
+   color: rgb(30, 203, 41);
+   text-align: center;
+   padding: 20px;
+}

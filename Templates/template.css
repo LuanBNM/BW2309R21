@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  .header__top {
+    margin: 20px 75px;
+  }
+  .header__logo img {
+    width: 25%;
+  }
+  .nav {
+    display: inline;
+    margin: 0 20px;
+  }
+  .nav__link {
+    text-decoration: none;
+    color: rgb(110, 110, 108);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .nav__link--btn {
+    color: rgb(119, 236, 236);
+    border: 1px solid rgb(114, 200, 200) ;
+    padding: 5px 10px;
+  }
+.header_banner {
+    background: url(images/slider.jpg);
+    text-align: center;
+    padding: 50px 150px;
+    color: white;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px black;
+}
+.header__title {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.header__subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 60px;
+}

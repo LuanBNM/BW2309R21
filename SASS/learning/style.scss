@@ -1,0 +1,30 @@
+@import 'var';
+.nav  {
+    background-color: $var_color;
+    font-size: 30px;
+    ul {
+        color: gray;
+        font-family: 'Courier New', Courier, monospace;
+        li {
+            padding: auto;
+            margin: 30px;
+            @include style_para (green);
+        }
+    }
+}
+div {
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    @include style_para(black);
+}
+.button1 {
+    width: 20px;
+    height: 30px;
+    @extend %style_shared
+}
+.button2 {
+    width: 10px;
+    height: 10px;
+    @extend %style_shared
+}

@@ -1,0 +1,16 @@
+$var_color: red;
+
+h1{
+    background-color: $var_color;
+}
+@mixin style_para($color) {
+    font-size: 10px;
+    color: $color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+%style_shared {
+    border-radius: 50%;
+    background-color: greenyellow;
+    color: hotpink;
+}
